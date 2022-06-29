@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #F3F3F3;
+}
+ .main-header{
+     background-color: #222222;
+     height: 100px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .logo{
+     width: 183px;
+     height: 40px;
+     margin-left: 35px;
+ }
+ .main-header nav{
+     display: flex;
+     gap: 42px;
+     margin-right: 38px;
+
+ }
+ .main-header nav ul{
+     display: flex;
+     list-style: none;
+     gap: 12px;
+ }
+ .main-header a{
+     color: #F3F3F3;
+     font-size: 16px;
+     text-decoration: none;
+     font-weight: 700;
+     font-family: 'Roboto', sans-serif;
+ }
+ .cart{
+     width: 25px;
+     height: 25px;
+ }
+ .main-class{
+     background-color: rgb(230, 230, 209);
+ }
+ .first-section{
+     background-image: url(./images/img\ 1.png);
+     height: 512px;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+ .first-section h1{
+color: #D01418;
+font-size: 40px;
+font-family: 'Roboto', sans-serif;
+
+
+ }
+ .first-section h2{
+     color: #F3F3F3;
+     font-size: 40px;
+     font-family: 'Roboto', sans-serif;
+ }
+ .first-section button{
+     background-color: #D01418;
+     font-family: 'Roboto', sans-serif;
+     font-size: 25px;
+     color: #F3F3F3;
+     border: none;
+     padding: 16px 61px;
+     width: 220px;
+     height: 61px;
+     margin-top: 28px;
+     border-radius: 5px;
+ }
+ .first-section .central{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ .first-section .central-text{
+     display: flex;
+     gap: 5px;
+ }
+ .titulo-second-section{
+     font-size: 30px;
+     font-weight: 400;
+     text-align: center;
+     margin-top: 40px;
+ }
+ .second-section{
+     display:flex;
+     gap: 30px;
+     justify-content: center;
+ }
+ .second-section .cards{
+     width: 265px;
+     height: 322px;
+     background-color: #FFFFFF;
+     margin-top: 20px;
+     border-radius: 5px;
+     
+     
+ }
+ .card-image{
+     display: flex;
+     margin-top: 30px;
+ }
+ .card-text{
+     margin-top: 51px;
+     margin-left: 20px;
+ }
+ .second-section .cards img{
+    width: 129px;
+    height: 163px;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+ }
+ .cards-text{
+     padding-top: 51px;
+     
+ }
+ .preco{
+     font-size: 20px;
+     font-weight: 400;
+ }
+ .parcelamento{
+     font-size: 13px;
+     font-weight: 400;
+     margin-top: 4px;
+ }
+ .envio{
+     font-size: 10px;
+     font-weight: 400;
+     color: #619D00;
+     margin-top: 3px;
+ }
+ .third-section{
+     display: flex;
+     justify-content: center;
+     gap: 114px;
+     margin-top: 27px;
+
+     
+ }
+ .final-card{
+     background-image: url(./images/banner\ 1.png);
+     width: 361px;
+     height: 135px;
+     border-radius: 5px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .final-card1{
+     background-image: url(./images/banner\ 1\ \(1\).png);
+     width: 361px;
+     height: 135px;
+     border-radius: 5px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .final-card-text{
+     font-size: 25px;
+     color: #FFFFFF;
+     
+ }
+ h3{
+     font-size: 30px;
+     font-weight: 400;
+     text-align: center;
+     margin-top: 78px;
+ }
+ .main-footer{
+     height: 216px;
+     background-color: #222222;
+     display: flex;
+     justify-content:space-between;
+     align-items: center;
+     margin-top: 83px;
+  
+ }
+ .logo-footer{
+     width: 183px;
+     height: 40px;
+     margin-left: 75px;
+ }
+ h4{
+     font-size: 25px;
+     font-weight: 400;
+     color: #F3F3F3;
+ }
+ .redes-sociais{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-right: 80px;
+
+ }
+ .sociais{
+     display: flex;
+     gap: 42px;
+     margin-top: 23px;
+ }
+ .subfooter{
+     height: 25px;
+     background-color: #C4C4C4;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .subfooter p{
+     text-align: center;
+     font-size: 10px;
+     font-weight: 400;
+ }
